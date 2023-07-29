@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.inner-container {
+  border-radius: 10px;
+  background-color: #150b3e;
+  height: 500px;
+  width: 500px;
+  padding: 30px;
+}
+.depositerNameContainer {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  background-color: #c7d2fe;
+  border-radius: 30px;
+  color: #7c3aed;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 18px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Lato';
+}
+.heading {
+  color: #d4d2db;
+  margin-left: 10px;
+  font-family: 'Lato';
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+.balanceHeading {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+}
+.amount {
+  color: #d4d2db;
+  font-size: 25px;
+  font-family: 'Lato';
+}
+span {
+  color: #585076;
+  font-size: 18px;
+  margin-top: 0px;
+  font-weight: 400;
+}
+.withdraw-head {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 25px;
+}
+.para {
+  color: #585076;
+  font-size: 18px;
+  font-weight: 500;
+}
+.unorderedList {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: space-around;
+  padding-left: 0px;
+}
